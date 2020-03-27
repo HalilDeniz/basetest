@@ -1,5 +1,10 @@
-import sys
-import base64
+try:
+	import sys
+	import base64
+	from os import system
+except ModuleNotFoundError:
+	print("eksik modul yükleniyor")
+	os.system("pip3 install base64")
 def çık():
 	print("çıkılıyor")
 	sys.exit()
