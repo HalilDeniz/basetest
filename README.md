@@ -1,5 +1,6 @@
 #    Program python3 ile çalışmaktadır..........
 # basetest
+# internette online decode veya encode siteler yerinde direk terminalde çalıştırma daha hızlı ve pratik imkan sunar
 # python3 basekır.py -e yada --encode "base64 şifrele"
 # şifrelemek istediğiniz kelimeyi makaleyi 2 tırnak içine yazıp detaylandırabilirsiniz
 
