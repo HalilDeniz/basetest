@@ -5,6 +5,8 @@ try:
 except ModuleNotFoundError:
 	print("eksik modul yükleniyor")
 	os.system("pip3 install base64")
+	os.system("clear")
+	print("Lütfen tekrar deneyin")
 def çık():
 	print("çıkılıyor")
 	sys.exit()
