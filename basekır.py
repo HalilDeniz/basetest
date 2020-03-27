@@ -23,8 +23,8 @@ def usage():
 
 	print(f'{sys.argv[0]} -e or --encode <"encode"> >>>> şifreler')
 	print(f'{sys.argv[0]} -d or --decode <"decode"> >>>> şifreyi çözer')
-	print(f"{sys.argv[0]} -fe or --fileencode <encode> >>>> dosyadaki karakteri şifreler")
-	print(f"{sys.argv[0]} -fd or --filedecode <decode> >>>> dosyadaki şifreyi çözer")
+	print(f"{sys.argv[0]} -fe or --fileencode <encode.txt> >>>> dosyadaki karakteri şifreler")
+	print(f"{sys.argv[0]} -fd or --filedecode <decode.txt> >>>> dosyadaki şifreyi çözer")
 	sys.exit(1)
 
 if len(sys.argv) <3:
