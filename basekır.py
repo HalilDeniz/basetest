@@ -1,14 +1,14 @@
 try:
-	import sys
-	import base64
-	import os
+        import sys
+        import base64
+        import os
 except ModuleNotFoundError:
-	print("eksik modul yükleniyor")
-	os.system("pip3 install base64") 
-        os.system("pip install base64") 
-	os.system("clear")
-	print("Lütfen tekrar deneyin")
-        usage() 
+        print("eksik modul yükleniyor")
+        os.system("pip3 install base64")
+        os.system("pip install base64")
+        os.system("clear")
+        print("Lütfen tekrar deneyin")
+        usage()
 def çık():
 	print("çıkılıyor")
 	sys.exit()
@@ -69,3 +69,4 @@ else:
 	print(f"Girdiğiniz panametre ({sys.argv[1]}) anlaşılmadı")
 	usage()
 	çık()
+
