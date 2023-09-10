@@ -1,4 +1,3 @@
-```
 # Base64 Encoder/Decoder
 
 This program works with Python 3 and provides a fast and convenient way to encode and decode Base64 strings and files directly from the terminal.
