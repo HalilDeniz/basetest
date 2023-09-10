@@ -49,4 +49,3 @@ Replace `decode.txt` with the name of your Base64-encoded text file. The program
 Using online Base64 encode/decode websites is convenient, but running this program in your terminal offers a faster and more practical alternative.
 
 ## Enjoy Using the Program!
-```
