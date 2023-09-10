@@ -28,13 +28,7 @@ class Base64EncoderDecoder:
         |_.__/ \__,_|___/\___|\___/   |_|
 
                  """)
-    
-        print(f'{sys.argv[0]} -e or --encode <"encode"> >>>> şifreler')
-        print(f'{sys.argv[0]} -d or --decode <"decode"> >>>> şifreyi çözer')
-        print(f"{sys.argv[0]} -fe or --fileencode <encode.txt> >>>> dosyadaki karakteri şifreler")
-        print(f"{sys.argv[0]} -fd or --filedecode <decode.txt> >>>> dosyadaki şifreyi çözer")
-        sys.exit(1)
-
+        
     def encode_string(self, input_string):
         karakter = input_string.encode("utf-8")
         göster = base64.b64encode(karakter)
